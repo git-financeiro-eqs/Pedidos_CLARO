@@ -119,7 +119,6 @@ def salvar_csv(dados, output_file="dados_extraidos.csv"):
 
 
 
-
 if __name__ == "__main__":
 
     pdf_path = askopenfilename(
@@ -138,3 +137,4 @@ if __name__ == "__main__":
         salvar_csv(dados_extraidos)
 
         messagebox.showinfo("Sucesso!", "Os dados foram extraídos com sucesso!")
+        
