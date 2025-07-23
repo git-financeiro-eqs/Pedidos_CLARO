@@ -12,7 +12,7 @@ Extrai informações pertinentes ao faturamento, como:
 Número do item,
 Código do item,
 Valor,
-Municipio.
+Municipio.  
 Gera um arquivo CSV com esses dados, pronto para ser utilizado.
 <br/>
 <br/>
