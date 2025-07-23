@@ -30,7 +30,7 @@ O script irá gerar um arquivo CSV com os resultados na mesma pasta onde o scrip
 <br/>
 
 ### Dependências
-Este projeto depende de uma biblioteca externa Python. Você pode instalá-las usando pip:
+Este projeto depende de uma biblioteca externa Python. Você pode instalá-la usando pip:
 ```bash
 pip install PyMuPDF  
 ```
