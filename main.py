@@ -62,7 +62,7 @@ def extrair_texto_como_string_gigante(caminho_pdf):
 
 def extrair_dados(texto):
     """
-    Extrai dados estruturados de PDFs no formato do exemplo, incluindo:
+    Extrai dados estruturados do texto no formato do exemplo, incluindo:
     - Número do item (ex: 0001)
     - Código (ex: LC-116/03 07.02)
     - Valor unitário (ex: 344,40)
@@ -121,20 +121,19 @@ def salvar_csv(dados, output_file="dados_extraidos.csv"):
 
 if __name__ == "__main__":
 
-    pdf_path = askopenfilename(
+    caminho_pdf = askopenfilename(
         title="Selecione o PDF com o pedido",
         filetypes=[("PDF files", "*.pdf")],
     )
 
-    if not pdf_path:
+    if not caminho_pdf:
         messagebox.showwarning("Aviso", "Nenhum arquivo PDF selecionado.")
         sys.exit(1)
     else:
-        texto_gigante_limpo = extrair_texto_como_string_gigante(pdf_path)
+        texto_limpo = extrair_texto_como_string_gigante(caminho_pdf)
 
-        dados_extraidos = extrair_dados(texto_gigante_limpo)
+        dados_extraidos = extrair_dados(texto_limpo)
 
         salvar_csv(dados_extraidos)
 
         messagebox.showinfo("Sucesso!", "Os dados foram extraídos com sucesso!")
-        
