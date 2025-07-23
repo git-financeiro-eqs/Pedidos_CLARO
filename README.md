@@ -21,7 +21,6 @@ Gera um arquivo CSV com esses dados, pronto para ser utilizado.
 Python 3.x;  
 Biblioteca: PyMuPDF;  
 <br/>
-<br/>
 
 ### Execução:
 Execute o script Python no seu terminal ou ambiente de desenvolvimento, ou através do executável.  
