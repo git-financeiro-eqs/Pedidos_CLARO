@@ -6,10 +6,10 @@ Este é um script simples em Python que processa um arquivo PDF, extrai dados pe
 
 ### Funcionalidades
 
-Lê o arquivo PDF com as informações do pedido.
-Elimina partes do texto que não são pertinentes.
-Extrai informações pertinentes ao faturamento, como:  
-Npumero do item,
+Lê o arquivo PDF com as informações do pedido.  
+Elimina partes do texto que não são pertinentes.  
+Extrai informações pertinentes ao faturamento, como:    
+Número do item,
 Código do item,
 Valor,
 Municipio.
