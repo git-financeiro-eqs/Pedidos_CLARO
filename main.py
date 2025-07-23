@@ -137,3 +137,4 @@ if __name__ == "__main__":
         salvar_csv(dados_extraidos)
 
         messagebox.showinfo("Sucesso!", "Os dados foram extraídos com sucesso!")
+    
